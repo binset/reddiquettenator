@@ -1,0 +1,17 @@
+{
+    "username": "BotReddiquette",
+    "password": "Z5nwM043",
+    "userAgent": "A word cloud generator run by /u/test",
+    "replyPause": 3,
+    "size": 40000,
+    "scale": 2,
+    "clientId": "anonymousxx",
+    "minComments": 2,
+    "comment_header": "Hi, I am a Reddit bot. My job is to trawl through Reddit postings and offer you personalised, and (hopefully!) constructive recommendation on your posts to follow the Reddiquette guidelines.",
+	"comment_footer": "[Reddiquette](http://www.reddit.com/wiki/reddiquette) | [Reddiquette Song \\(Youtube\\)](http://www.youtube.com/watch?v=4fLpktf2jYw) | Redditbot FAQ",
+	"posting_title_header": "I have noticed in the title of your posting that:",
+	"posting_title_rules": {
+            "title_rule_all_caps":  ["(?=.*[A-Z][A-Z][A-Z][A-Z][A-Z]+)(?!.*[a-z]+)", "You have written your title in ALL CAPS. Reddiquette recommends that you do not post your title in all CAPS. Perhaps you can try using [Title Case](http://www.grammar-monster.com/lessons/capital_letters_title_case.htm)?"],
+            "title_rule_time_sensitive_words": ["(?i)^breaking:", "You have used the word `BREAKING` or other `time sensitive words` in your submissions. Reddiquette suggests that you don't use `time-sensitive words` in your titles, because by the time your post reaches the front page, it probably won't be `breaking` anymore."]
+    }
+}
